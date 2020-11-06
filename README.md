@@ -1,11 +1,11 @@
 # flaskapp
 *WE HAVE DONE THIS WEBBOT IN A TEAM OF THREE AND THE COLLABORATORS ARE :
 
-      1.18pa1a05g5.
+      1.18pa1a05g5
 
-      2.18pa1a0580.
+      2.18pa1a0580
 
-      3.18pa1a05f0.
+      3.18pa1a05f0
 
 # OBJECTIVES:
 
