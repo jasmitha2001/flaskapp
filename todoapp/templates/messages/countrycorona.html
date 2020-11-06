@@ -1,0 +1,14 @@
+{% extends 'messages/botbase.html' %}
+{% block content %}
+{% if wdata['message']!="Country not found" %}
+<p>**** CORONA UPDATES ****</p>
+<p>Total no of cases in {{wdata['country']}} : {{wdata['cases']}}</p>
+<p>Cases registered today : {{wdata['todayCases']}}</p>
+<p>Total no of deaths : {{wdata['deaths']}}</p>
+<p>Deaths occured today: {{wdata['todayDeaths']}}</p>
+<p>Recovered : {{wdata['recovered']}}</p>
+<p>Active : {{wdata['active']}}</p>
+{% else %}
+</p>Country not found </p>
+{% endif %}
+{% endblock %}

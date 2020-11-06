@@ -1,0 +1,14 @@
+{% extends 'messages/botbase.html' %}
+{% block content %}
+{% if wdata["cod"]==200 %}
+<p>**** WEATHER REPORT ****</p>
+<p>City Name : {{wdata["name"]}}</p>
+<p>Minimun Temperature : {{wdata['main']['temp_min']}} °C</p>
+<p>Maximum Temperature : {{wdata['main']['temp_max']}} °C</p>
+<p>Humidity : {{wdata["main"]["humidity"]}}</p>
+<p>Pressure : {{wdata["main"]["pressure"]}}</p>
+<p>Description : {{wdata['weather'][0]['description']}}</p>
+{% else %}
+<p>City not found</p>
+{% endif %}
+{% endblock %}

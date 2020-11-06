@@ -1,0 +1,8 @@
+{% extends 'messages/botbase.html' %}
+{% block content %}
+{% if wdata!="wrong" %}
+<p>The result of the expression is {{wdata}}</p>
+{% else %}
+</p>Invalid Expression</p>
+{% endif %}
+{% endblock %}

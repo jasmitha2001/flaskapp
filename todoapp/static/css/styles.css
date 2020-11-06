@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+header {
+    margin-bottom: 0px !important;
+}
+
+#chat{
+    background-image: url(../assets/bg.jpg);
+    padding:50px 0px;
+}
+
+.msg{
+    display: flex;
+    padding:10px;
+}
+
+.msg.bot{
+    margin-right: 30%;
+}
+
+.content{
+    padding:10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.bot .content{
+    border-top-left-radius: 0px;
+    background-color:black;
+    color:white;
+}
+
+.bot::before{
+    content:"";
+    width:50px;
+    height:50px;
+    border-radius: 32px;
+    background-image: url(../assets/bot.jpg);
+    background-size: cover;
+}
+
+.msg.user{
+    margin-left: 30%;
+    justify-content: flex-end;
+}
+
+.user .content{
+    border-top-right-radius: 0px;
+    background-color:yellow;
+}
+
+.user::after{
+    content:"";
+    width:50px;
+    height:50px;
+    border-radius: 32px;
+    background-image: url(../assets/user.png);
+    background-size: cover;
+}
+
+
+footer{
+    background-color: black;
+    font-family: 'Syne Mono', monospace;
+}
+
+footer img{
+    height:200px;
+    width:200px;
+}
+
+.label{
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+btn{
+    font-size: 30px;
+}
+
+.form{
+    min-width:150px;
+    display: block;
+    text-align: center;
+}
+
+.key{
+    margin-right: 20px;
+    font-weight:500;
+    color: orange;
+    width: 100px;
+    font-size:1.5em;
+    display: inline-block;
+}
+
+.key{
+    width: 100px;
+    font-size:2em;
+    text-align:right;
+    display: inline-block;
+}
+
