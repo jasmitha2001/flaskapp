@@ -9,7 +9,7 @@
 
 # OBJECTIVES:
 
-  It provides weather report and  corona updates.
+  To provide weather report and  corona updates and evaluate an expression.
 
 # DESCRIPTION:
 
@@ -46,5 +46,16 @@
        IF YOU ENTER A VALID EXPRESSION, IT WILL EVALUATE AND GIVES A RESULT TO YOUR EXPRESSION.
 
        ELSE IT SEND A MESSAGE : *INVALID EXPRESSION*.
+       
+       IF YOUR REQUEST IS TO END THE CHAT,THEN TYPE CLOSE- 
+      
+             THEN IT WILL ASKS YOU TO SAY HI TO RESTART THE BOT.
+      
+    
+HEROKU LINK : https://weatherandcoronabot.herokuapp.com/
+
+YOUTUBE LINK (DEMO VIDEO) : 
+       
+ 
  
       
