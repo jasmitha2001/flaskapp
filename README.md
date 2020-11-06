@@ -56,7 +56,7 @@
     
 HEROKU LINK : https://weatherandcoronabot.herokuapp.com/
 
-YOUTUBE LINK (DEMO VIDEO) : 
+YOUTUBE LINK (DEMO VIDEO) : https://youtu.be/eV-hZJbkx5A 
        
  
  
