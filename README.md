@@ -9,17 +9,17 @@
 
 # OBJECTIVES:
 
-  To provide weather report and  corona updates and evaluate an expression.
+  To provide weather report,corona updates and to evaluate an expression.
 
 # DESCRIPTION:
 
-   FIRSTLY THE BOT SHOWS THE BELLOW OPTIONS AND ASKS YOU TO ENTER YOUR NAME.
+   FIRSTLY THE BOT SHOWS THE BELOW OPTIONS AND ASKS YOU TO ENTER YOUR NAME.
 
-      1.Know the weather of a city.
+      1.TO Know the weather of a city.
       
-      2.Know the Corona updates of a country.
+      2.TO Know the Corona updates of a country.
       
-      3.Evaluate/Calcualate an expression.
+      3.TO Evaluate/Calcualate an expression.
       
       4.Want to close the conversation.
       
@@ -36,7 +36,7 @@
 
        IF YOUR REQUEST IS TO KNOW "CORONA UPDATES",THEN IT WILL ASK YOU TO ENTER COUNTRY NAME.
 
-       IF YOU ENTER A CORRECT COUNTRY NAME, IT WILL PROVIDE CORONA UPDATES OF COUNTRY.
+       IF YOU ENTER A CORRECT COUNTRY NAME, IT WILL PROVIDE CORONA UPDATES OF THAT COUNTRY.
 
        ELSE IT SEND A MESSAGE : *COUNTRY NOT FOUND*.
        
